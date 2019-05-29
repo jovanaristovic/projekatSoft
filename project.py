@@ -41,6 +41,7 @@ def findLine(frame):
 
     gray = cv2.cvtColor(img_org, cv2.COLOR_BGR2GRAY)
 
+###################          BROJEVI I REGIONI #########################
 
     image_bin = cv2.adaptiveThreshold(gray, 255, cv2.ADAPTIVE_THRESH_MEAN_C, cv2.THRESH_BINARY, 35, 10)
   #  cv2.imshow('img', image_bin)
@@ -54,13 +55,13 @@ def findLine(frame):
         center, size, angle = cv2.minAreaRect(
             contour)  # pronadji pravougaonik minimalne povrsine koji ce obuhvatiti celu konturu
         width, height = size
-        if height < 50:  # uslov da kontura pripada broju
+        if height < 60:  # uslov da kontura pripada broju
             contours_numbers.append(contour)  # ova kontura pripada broju
 
     img = frame.copy()
     cv2.drawContours(img, contours_numbers, -1, (0, 0, 255), 1)
 
-    # cv2.imshow('img', img)        #oznaceni su samo brojevi
+    cv2.imshow('img', img)        #oznaceni su samo brojevi
 
 
 
@@ -73,7 +74,7 @@ def findLine(frame):
             # kopirati [y:y+h+1, x:x+w+1] sa binarne slike i smestiti u novu sliku
             # označiti region pravougaonikom na originalnoj slici (image_orig) sa rectangle funkcijom
             region = image_bin[y:y + h + 1, x:x + w + 1]
-            cv2.imshow('img', region)
+      #      cv2.imshow('img', region)
             regions_array.append([resize_region(region), (x, y, w, h)])
             cv2.rectangle(img_org, (x, y), (x + w, y + h), (0, 255, 0), 2)
     regions_array = sorted(regions_array, key=lambda item: item[1][0])
@@ -82,6 +83,13 @@ def findLine(frame):
 
 
 ####################################################################################################################
+
+
+
+
+
+
+
 
 
 cap = cv2.VideoCapture('videos/video-9.avi')
