@@ -155,6 +155,7 @@ while True:
     if ret == True:
 
         findLine(frame)
+        #
 
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
