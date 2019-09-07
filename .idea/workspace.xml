@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7739ff2a-4ce9-4563-a38a-5e602c5a4480" name="Default Changelist" comment="" />
+    <list default="true" id="7739ff2a-4ce9-4563-a38a-5e602c5a4480" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basicFunctions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos/demo.avi" beforeDir="false" afterPath="$PROJECT_DIR$/videos/demo.avi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos/video-0.avi" beforeDir="false" afterPath="$PROJECT_DIR$/videos/video-0.avi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos/video-1.avi" beforeDir="false" afterPath="$PROJECT_DIR$/videos/video-1.avi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos/video-2.avi" beforeDir="false" afterPath="$PROJECT_DIR$/videos/video-2.avi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos/video-3.avi" beforeDir="false" afterPath="$PROJECT_DIR$/videos/video-3.avi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos/video-4.avi" beforeDir="false" afterPath="$PROJECT_DIR$/videos/video-4.avi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos/video-5.avi" beforeDir="false" afterPath="$PROJECT_DIR$/videos/video-5.avi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos/video-6.avi" beforeDir="false" afterPath="$PROJECT_DIR$/videos/video-6.avi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos/video-7.avi" beforeDir="false" afterPath="$PROJECT_DIR$/videos/video-7.avi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos/video-8.avi" beforeDir="false" afterPath="$PROJECT_DIR$/videos/video-8.avi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/videos/video-9.avi" beforeDir="false" afterPath="$PROJECT_DIR$/videos/video-9.avi" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+            <state relative-caret-position="91">
+              <caret line="157" column="7" selection-start-line="157" selection-start-column="7" selection-end-line="157" selection-end-column="7" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -35,6 +53,7 @@
     <findStrings>
       <find>resize_region</find>
       <find>imshow</find>
+      <find>find</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -45,14 +64,16 @@
       <list>
         <option value="$PROJECT_DIR$/soft.py" />
         <option value="$USER_HOME$/Desktop/soft/sc-2018-e2-master/sc-2018-e2-master/v1-uvod/sc-2018-e2-v1-cv-basics.ipynb" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/1337942390/cv2/__init__.py" />
         <option value="$PROJECT_DIR$/project.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-141" />
-    <option name="y" value="13" />
-    <option name="width" value="1346" />
+    <option name="x" value="93" />
+    <option name="y" value="31" />
+    <option name="width" value="922" />
     <option name="height" value="688" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -71,11 +92,7 @@
             <path>
               <item name="projekatSoft" type="b2602c69:ProjectViewProjectNode" />
               <item name="projekatSoft" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projekatSoft" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="videos" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -85,8 +102,14 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/soft/Olgino/softKompjuting-master/SoftComputing" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dell\PycharmProjects\novo\projekatSoft" />
+      <recent name="C:\Users\Dell\PycharmProjects\novo\projekatSoft\videos" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -177,29 +200,41 @@
       <option name="presentableId" value="Default" />
       <updated>1551094934894</updated>
     </task>
+    <task id="LOCAL-00001" summary="deleted venv">
+      <created>1567862095255</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1567862095255</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26339287" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25520834" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4985119" visible="true" weight="0.198036" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985119" visible="true" weight="0.18330605" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.17021276" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.24222586" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5014881" side_tool="true" weight="0.18494272" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4985119" weight="0.3289689" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4985119" weight="0.36216217" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="deleted venv" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted venv" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Desktop/soft/sc-2018-e2-master/sc-2018-e2-master/v0-priprema/Python_uvod.ipynb">
@@ -232,10 +267,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="115" column="6" selection-start-line="115" selection-start-column="6" selection-end-line="115" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/h5py/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basicFunctions.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/tcl8.6/init.tcl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/1337942390/cv2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="72" column="31" selection-start-line="72" selection-start-column="31" selection-end-line="72" selection-end-column="31" />
+        <state relative-caret-position="91">
+          <caret line="157" column="7" selection-start-line="157" selection-start-column="7" selection-end-line="157" selection-end-column="7" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
