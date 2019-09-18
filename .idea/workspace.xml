@@ -2,23 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7739ff2a-4ce9-4563-a38a-5e602c5a4480" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basicFunctions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upisUOut.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basicFunctions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/project.py" beforeDir="false" afterPath="$PROJECT_DIR$/project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videos/demo.avi" beforeDir="false" afterPath="$PROJECT_DIR$/videos/demo.avi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videos/video-0.avi" beforeDir="false" afterPath="$PROJECT_DIR$/videos/video-0.avi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videos/video-1.avi" beforeDir="false" afterPath="$PROJECT_DIR$/videos/video-1.avi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videos/video-2.avi" beforeDir="false" afterPath="$PROJECT_DIR$/videos/video-2.avi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videos/video-3.avi" beforeDir="false" afterPath="$PROJECT_DIR$/videos/video-3.avi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videos/video-4.avi" beforeDir="false" afterPath="$PROJECT_DIR$/videos/video-4.avi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videos/video-5.avi" beforeDir="false" afterPath="$PROJECT_DIR$/videos/video-5.avi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videos/video-6.avi" beforeDir="false" afterPath="$PROJECT_DIR$/videos/video-6.avi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videos/video-7.avi" beforeDir="false" afterPath="$PROJECT_DIR$/videos/video-7.avi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videos/video-8.avi" beforeDir="false" afterPath="$PROJECT_DIR$/videos/video-8.avi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/videos/video-9.avi" beforeDir="false" afterPath="$PROJECT_DIR$/videos/video-9.avi" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,10 +23,23 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="157" column="7" selection-start-line="157" selection-start-column="7" selection-end-line="157" selection-end-column="7" />
+            <state relative-caret-position="8">
+              <caret line="77" column="12" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
+                <marker date="1568818491033" expanded="true" signature="2051:2063" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3612">
+              <caret line="217" selection-start-line="217" selection-end-line="217" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,9 +56,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>resize_region</find>
+      <find>tres</find>
+      <find>thres</find>
+      <find>neur</find>
+      <find>create</find>
+      <find>15000</find>
+      <find>dense</find>
+      <find>model</find>
       <find>imshow</find>
-      <find>find</find>
+      <find>1</find>
+      <find>roi</find>
+      <find>pred</find>
+      <find>select_roi</find>
+      <find>detectNumbers</find>
+      <find>imsh</find>
+      <find>2.</find>
+      <find>1.</find>
+      <find>3.</find>
+      <find>print</find>
+      <find>conv</find>
+      <find>neuron</find>
+      <find>vide</find>
+      <find>10</find>
+      <find>500</find>
+      <find>video</find>
+      <find>detectLi</find>
+      <find>frame</find>
+      <find>findb</find>
+      <find>neuronska</find>
+      <find>Lines</find>
+      <find>jovana</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -66,15 +98,18 @@
         <option value="$USER_HOME$/Desktop/soft/sc-2018-e2-master/sc-2018-e2-master/v1-uvod/sc-2018-e2-v1-cv-basics.ipynb" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/1337942390/cv2/__init__.py" />
+        <option value="$PROJECT_DIR$/upisUOut.py" />
+        <option value="$PROJECT_DIR$/out.txt" />
+        <option value="$PROJECT_DIR$/functions.py" />
         <option value="$PROJECT_DIR$/project.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="93" />
-    <option name="y" value="31" />
-    <option name="width" value="922" />
-    <option name="height" value="688" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -89,11 +124,6 @@
               <item name="projekatSoft" type="b2602c69:ProjectViewProjectNode" />
               <item name="projekatSoft" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="projekatSoft" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projekatSoft" type="462c0819:PsiDirectoryNode" />
-              <item name="videos" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -102,8 +132,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/soft/Olgino/softKompjuting-master/SoftComputing" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -123,7 +153,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.project">
+  <component name="RunManager" selected="Python.test">
     <configuration name="SoftProjekat" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="SoftProjekat" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,9 +213,58 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="SoftProjekat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Dell\PycharmProjects\SoftProjekat\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="upisUOut" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SoftProjekat" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\Dell\PycharmProjects\SoftProjekat\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/upisUOut.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Jupyter Notebook.SoftProjekat" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.project" />
+      <item itemvalue="Python.upisUOut" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.project" />
+        <item itemvalue="Python.upisUOut" />
       </list>
     </recent_temporary>
   </component>
@@ -207,25 +286,33 @@
       <option name="project" value="LOCAL" />
       <updated>1567862095255</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="radi nesto">
+      <created>1567869135745</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567869135745</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25520834" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.063244045" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4985119" visible="true" weight="0.18330605" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49776787" weight="0.049099836" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25040916" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.17021276" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.24222586" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5014881" side_tool="true" weight="0.18494272" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50223213" side_tool="true" weight="0.58428806" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.4985119" weight="0.36216217" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -234,7 +321,79 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="deleted venv" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted venv" />
+    <MESSAGE value="radi nesto" />
+    <option name="LAST_COMMIT_MESSAGE" value="radi nesto" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project.py</url>
+          <line>240</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/project.py</url>
+          <line>230</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="distancePlava" language="Python" />
+        <watch expression="distanceZelena" language="Python" />
+        <watch expression="preciCePlavu" language="Python" />
+        <watch expression="preciCeZelenu" language="Python" />
+        <watch expression="rezultat" language="Python" />
+        <watch expression="sorted_regionsPlava" language="Python" />
+        <watch expression="vec_sabrani" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>vec_sabrani</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>sorted_regionsPlava</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>rezultat</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>preciCeZelenu</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>preciCePlavu</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>distanceZelena</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>distancePlava</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/Desktop/soft/sc-2018-e2-master/sc-2018-e2-master/v0-priprema/Python_uvod.ipynb">
@@ -281,9 +440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basicFunctions.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/tcl8.6/init.tcl">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -294,12 +450,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/engine/training_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="141" column="2" selection-start-line="141" selection-start-column="2" selection-end-line="141" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/engine/training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="1025" column="12" selection-start-line="1025" selection-start-column="12" selection-end-line="1025" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.h5">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="1740" selection-start-line="1740" selection-end-line="1740" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/tensorflow/python/framework/ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5617" column="53" selection-start-line="5617" selection-start-column="49" selection-end-line="5617" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upisUOut.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3612">
+          <caret line="217" selection-start-line="217" selection-end-line="217" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/project.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="157" column="7" selection-start-line="157" selection-start-column="7" selection-end-line="157" selection-end-column="7" />
+        <state relative-caret-position="8">
+          <caret line="77" column="12" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+            <marker date="1568818491033" expanded="true" signature="2051:2063" ph="..." />
           </folding>
         </state>
       </provider>
